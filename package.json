@@ -1,0 +1,24 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "A full-stack app using node and express servers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiaramdelucia/friend_finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiaramdelucia/friend_finder/issues"
+  },
+  "homepage": "https://github.com/chiaramdelucia/friend_finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "path": "^0.12.7"
+  }
+}
