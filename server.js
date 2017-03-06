@@ -2,7 +2,7 @@
 // =============================================================
 const express = require('express');
 const bodyParser = require('body-parser');
-const path = require ('path');
+
 
 
 //Initialize Express and local host
@@ -20,35 +20,10 @@ app.use(express.static(__dirname));
 app.use(express.static('./app/public'));
 app.use(express.static('./app/data'));
 
-//Friends (DATA)
+//Routes
 // =============================================================
-var friends = require('./app/data/friends.js');
-
-//API Routes
-// =============================================================
-app.get('/api/friends', function (req, res){	
-	res.json(friends);
-	console.log(friends);
-	
-});
-
-app.post('/api/friends', function (req, res){
-	friends.push(req.body);
-	
-	
-});
-
-//HTML Routes
-//=============================================================
-app.get('/survey', function (req, res){
-	res.sendFile(path.join(__dirname, '/app/public/survey.html'));
-
-});
-
-app.get('/', function (req, res){
-	res.sendFile(path.join(__dirname, '/app/public/home.html'));
-
-});
+require('./app/routing/apiRoutes.js')(app); 
+require('./app/routing/htmlRoutes.js')(app);
 
 
 //Listen on port 3000
