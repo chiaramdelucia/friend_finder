@@ -3,8 +3,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-
-
 //Initialize Express and local host
 // =============================================================
 var app = express();
