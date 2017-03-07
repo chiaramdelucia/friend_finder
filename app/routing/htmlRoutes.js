@@ -8,7 +8,7 @@ module.exports = function(app){
 
 	});
 
-	app.get('mighty-savannah-84234.herokuapp.com', function (req, res){
+	app.get('mighty-savannah-84234.herokuapp.com/', function (req, res){
 		res.sendFile(path.join(__dirname, '/../public/home.html'));
 
 	});
