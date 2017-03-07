@@ -22,11 +22,13 @@ h1{
 
 button:hover {
   color: #3c8487;
+  cursor: pointer;
 }
 
 button:active {
   color:#3c8487;
 }
+
 
 .scenery {
   position: relative;
