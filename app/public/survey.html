@@ -7,175 +7,183 @@
 
 <body>
 
-<!-- Modal -->
-<div class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Your New Friend!</h4>
-      </div>
-      <div class="modal-body">
-        <p id="matchFriendName"></p>
-        <img id='matchPic' style='width:500px; height:500px'></img>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
+	<!-- Modal -->
+	<div class="modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Your New Friend!</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p id="matchFriendName"></p>
+	        <img id='matchPic' style='width:500px; height:500px'></img>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 
 
-<h1> Survey Questions </h1>
-<hr>
-<form>
-	<div class="form-group">
-		<label for="name">Name (required)</label>
-		<input type="name" class="form-control" id="friendName" placeholder="Name">
-	</div>
+	<h1> Survey Questions </h1>
+	<hr>
+	<form>
+		<div class="form-group">
+			<label for="name">Name (required)</label>
+			<input type="name" class="form-control" id="friendName" placeholder="Name">
+		</div>
 
-	<div class="form-group">
-		<label for="photoLink">Link to Photo Image (required)</label>
-		<input type="link" class="form-control" id="photoLink">
-	</div>
+		<div class="form-group">
+			<label for="photoLink">Link to Photo Image (required)</label>
+			<input type="link" class="form-control" id="photoLink">
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 1</h3>
-  		<h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q1">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 1</h3>
+	  		<h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q1">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 2</h3>
-  		<h4>Generally speaking, you rely more on your experience than your imagination.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q2">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 2</h3>
+	  		<h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q2">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 3</h3>
-  		<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q3">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 3</h3>
+	  		<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q3">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 4</h3>
-  		<h4>It is often difficult for you to relate to other people’s feelings.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q4">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 4</h3>
+	  		<h4>It is often difficult for you to relate to other people’s feelings.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q4">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 5</h3>
-  		<h4> You rarely do something just out of sheer curiosity.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q5">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>		
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 5</h3>
+	  		<h4> You rarely do something just out of sheer curiosity.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q5">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>		
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 6</h3>
-		<h4>People can rarely upset you.</h4>
-		<select class="form-control" input type="dropdown" class="form-control" id="q6">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 6</h3>
+			<h4>People can rarely upset you.</h4>
+			<select class="form-control" input type="dropdown" class="form-control" id="q6">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 7</h3>
-  		<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q7">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 7</h3>
+	  		<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q7">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 8</h3>
-		<h4>You rarely get carried away by fantasies and ideas.</h4>
-		<select class="form-control" input type="dropdown" class="form-control" id="q8">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 8</h3>
+			<h4>You rarely get carried away by fantasies and ideas.</h4>
+			<select class="form-control" input type="dropdown" class="form-control" id="q8">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 9</h3>
-		<h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
-		<select class="form-control" input type="dropdown" class="form-control" id="q9">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 9</h3>
+			<h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+			<select class="form-control" input type="dropdown" class="form-control" id="q9">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-	<div class ='form-group question'>
-  		<h3>Question 10</h3>
-  		<h4>You feel more energetic after spending time with a group of people.</h4>
-		
-		<select class="form-control" input type="dropdown" class="form-control" id="q10">>
-			<option>1 (Strongly Agree) </option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5 (Strongly Disagree) </option>	
-		</select>
-	</div>
+		<div class ='form-group question'>
+	  		<h3>Question 10</h3>
+	  		<h4>You feel more energetic after spending time with a group of people.</h4>
+			
+			<select class="form-control" input type="dropdown" class="form-control" id="q10">>
+				<option>1 (Strongly Agree) </option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5 (Strongly Disagree) </option>	
+			</select>
+		</div>
 
-  <button type="submit" class="btn btn-default" id="submit">Submit</button>
-</form>
+	  <button type="submit" class="btn btn-default" id="submit">Submit</button>
+	  
+	</form>
+
+		<footer class="caption footer">
+		  <div class="container">
+		         <p>
+		         	<a href="/api/friends">API Friends List</a>
+		     
+		     	 </p>
+		  </div>
+		</footer>
 
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src='results.js'></script>
-<!-- <script type="text/javascript" src ='../app/routing/apiroutes.js'></script> -->
-
 
 </body>
 
