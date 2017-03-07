@@ -27,6 +27,7 @@ button:hover {
 button:active {
   color:#3c8487;
 }
+
 .scenery {
   position: relative;
   box-sizing: border-box;
